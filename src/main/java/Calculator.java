@@ -19,4 +19,8 @@ public class Calculator {
     public int multiply(){
         return num1 * num2;
     }
+
+    public int divide(){
+        return num1 /num2;
+    }
 }
