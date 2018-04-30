@@ -21,7 +21,8 @@ public class PrinterTest {
 
     @Test
     public void canPrint(){
-        assertEquals(10, testPrinter.canPrint(2, 5));
+        testPrinter.canPrint(2,5);
+        assertEquals(10, testPrinter.getPaper());
     }
 
     @Test
@@ -33,5 +34,11 @@ public class PrinterTest {
     @Test
     public void hasToner(){
         assertEquals(100, testPrinter.getToner());
+    }
+
+    @Test
+    public void canPrintToner(){
+        testPrinter.canPrint(2,5);
+        assertEquals(90, testPrinter.getToner());
     }
 }

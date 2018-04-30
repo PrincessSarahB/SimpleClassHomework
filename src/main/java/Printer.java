@@ -19,12 +19,13 @@ public class Printer {
         return pages * copies;
     }
 
-    public int canPrint(int pages, int copies) {
+    public void canPrint(int pages, int copies) {
         int total = pages * copies;
-        if (this.paper >= total) {
+        if ((this.paper >= total) && (this.toner >= 1)){
             this.paper -= total;
+            this.toner -= total;
         }
-        return this.paper;
+
     }
 
     public int refill(int newpaper){
