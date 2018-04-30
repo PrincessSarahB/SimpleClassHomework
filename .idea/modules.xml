@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleClassHomework.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleClassHomework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleClassHomework_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleClassHomework_main.iml" group="SimpleClassHomework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleClassHomework_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleClassHomework_test.iml" group="SimpleClassHomework" />
+    </modules>
+  </component>
+</project>
