@@ -19,8 +19,7 @@ public class WaterBottle {
     }
 
     public void fill(){
-        if(this.volume == 0)
-        this.volume += this.volume;
+        this.volume = 100;
 
     }
 }
