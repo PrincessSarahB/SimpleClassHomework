@@ -14,6 +14,8 @@ public class Calculator {
     }
 
     public int divide(int num1, int num2){
-        return num1 /num2;
+        return num1 / num2;
     }
+
+//    return a double when dividing rather than int. public double divide(double num1, double num2)
 }

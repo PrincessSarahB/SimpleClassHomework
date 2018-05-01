@@ -4,11 +4,14 @@ public class WaterBottle {
 
     public WaterBottle(int volume){
         this.volume = volume;
+//        preferred way would be this.volume = 100;
     }
 
     public int getVolume(){
         return this.volume;
     }
+
+//    command + n will let you auto create a getter/setter etc.
 
     public void drink(){
         this.volume -= 10;

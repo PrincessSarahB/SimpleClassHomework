@@ -2,6 +2,8 @@ public class Printer {
     private int paper;
     private int toner;
 
+//    can use command + n to create constructor
+
     public Printer(int paper, int toner){
         this.paper = paper;
         this.toner = toner;
@@ -15,13 +17,9 @@ public class Printer {
         return this.toner;
     }
 
-    public int print(int pages, int copies){
-        return pages * copies;
-    }
-
-    public void canPrint(int pages, int copies) {
+    public void print(int pages, int copies){
         int total = pages * copies;
-        if ((this.paper >= total) && (this.toner >= 1)){
+        if ((total <= this.paper) && (this.toner >= 1)){
             this.paper -= total;
             this.toner -= total;
         }
