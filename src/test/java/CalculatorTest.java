@@ -8,25 +8,25 @@ public class CalculatorTest {
     private Calculator testCalculator;
     @Before
     public void before() {
-        testCalculator = new Calculator(10, 5);
+        testCalculator = new Calculator();
     }
     @Test
     public void add(){
-        assertEquals(15,testCalculator.add());}
+        assertEquals(15,testCalculator.add(10, 5));}
 
     @Test
     public void subtract(){
-        assertEquals(5, testCalculator.subtract());
+        assertEquals(5, testCalculator.subtract(10, 5));
     }
 
     @Test
     public void multiply(){
-        assertEquals(50, testCalculator.multiply());
+        assertEquals(50, testCalculator.multiply(10, 5));
     }
 
     @Test
     public void divide(){
-        assertEquals(2, testCalculator.divide());
+        assertEquals(2, testCalculator.divide(10, 5));
     }
 
 
